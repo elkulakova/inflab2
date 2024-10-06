@@ -96,5 +96,25 @@
 
 ## Код программы в редакторе Vim
 <p align="center">
- <img width="600px" src="1.png" alt="qr"/>
+ <img width="600px" src="Screenshot 2024-10-06 at 21.42.51.png" alt="qr"/>
+</p>
+
+## Пример выполнения кода без ошибок
+<p align="center">
+ <img width="600px" src="Screenshot 2024-10-06 at 21.45.04.png" alt="qr"/>
+</p>
+
+## Пример выполнения кода с ошибкой
+<p align="center">
+ <img width="600px" src="Screenshot 2024-10-06 at 21.44.34.png" alt="qr"/>
+</p>
+
+## Пример выполнения кода с ошибкой
+<p align="center">
+ <img width="600px" src="Screenshot 2024-10-06 at 21.43.46.png" alt="qr"/>
+</p>
+
+## Пример выполнения кода с ошибкой
+<p align="center">
+ <img width="600px" src="Screenshot 2024-10-06 at 21.45.38.png" alt="qr"/>
 </p>
