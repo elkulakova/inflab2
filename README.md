@@ -73,11 +73,23 @@
    		echo $n | rev
    	else
    		nol=`expr 8 - ${#n}`
-   		#echo "$nol zeros required"
    		for ((h=1; h<=$nol; h++)); do
    			n="${n}0"
    		done
    		echo $n | rev
    	fi
    }
+   ```
+6. Следующим шагом написала цикл `for` для переведения введенного IP адреса в двоичную систему счисления. Перед циклом объявила пустую строку и присвоила это значение переменной `rsbip`. По окончании цикла объявила вывод получившегося значения на экран.
+   ```bash
+   rsbip=""
+   for i in $m; do
+   	if [ "$rsbip" != "" ]; then 
+   	       rsbip="$rsbip."
+   	fi	       
+   	value=$(to_binary $i)
+   	rsbip="${rsbip}${value}"
+   done
+   
+   echo $rsbip
    ```
