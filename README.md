@@ -93,3 +93,8 @@
    
    echo $rsbip
    ```
+
+## Код программы в редакторе Vim
+<p align="center">
+ <img width="600px" src="1.png" alt="qr"/>
+</p>
